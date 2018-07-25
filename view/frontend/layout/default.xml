@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="common.head.components">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="body" xsi:type="array">
+                        <item name="IdealCode_Ajax/js/dataAjax" xsi:type="array" />
+                    </item>
+                    <item name=".preloader" xsi:type="array">
+                        <item name="loader" xsi:type="array" />
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

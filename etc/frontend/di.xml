@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Catalog -->
+    <type name="Magento\Catalog\Controller\Product\Compare\Add">
+        <plugin name="IdealCode_Ajax" type="IdealCode\Ajax\Plugin\Controller\AjaxRequest" />
+    </type>
+    <type name="Magento\Catalog\Controller\Product\Compare\Clear">
+        <plugin name="IdealCode_Ajax" type="IdealCode\Ajax\Plugin\Controller\AjaxRequest" />
+    </type>
+    <type name="Magento\Catalog\Controller\Product\Compare\Remove">
+        <plugin name="IdealCode_Ajax" type="IdealCode\Ajax\Plugin\Controller\AjaxRequest" />
+    </type>
+
+    <!-- Checkout -->
+    <type name="Magento\Checkout\Controller\Cart\Add">
+        <plugin name="IdealCode_Ajax" type="IdealCode\Ajax\Plugin\Controller\AjaxRequest" />
+    </type>
+    <type name="Magento\Checkout\Controller\Cart\Delete">
+        <plugin name="IdealCode_Ajax" type="IdealCode\Ajax\Plugin\Controller\AjaxRequest" />
+    </type>
+
+    <!-- Wishlist -->
+    <type name="Magento\Wishlist\Controller\Index\Add">
+        <plugin name="IdealCode_Ajax" type="IdealCode\Ajax\Plugin\Controller\AjaxRequest" />
+    </type>
+    <type name="Magento\Wishlist\Controller\Index\Cart">
+        <plugin name="IdealCode_Ajax" type="IdealCode\Ajax\Plugin\Controller\AjaxRequest" />
+    </type>
+    <type name="Magento\Wishlist\Controller\Index\Remove">
+        <plugin name="IdealCode_Ajax" type="IdealCode\Ajax\Plugin\Controller\AjaxRequest" />
+    </type>
+</config>
